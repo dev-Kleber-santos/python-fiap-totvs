@@ -1,5 +1,5 @@
 #Importando nosso resturante.py para um app
-from modelos.restaurante import Restaurante
+from ALURA.modelos.restaurante import Restaurante
 
 
 restaurante_praca = Restaurante('Praça', 'Gourmet')
@@ -8,7 +8,9 @@ restaurante_japones = Restaurante('Japa', 'Japonesa')
 
 restaurante_EUA.receber_avaliacao('Kleber', 10)
 restaurante_EUA.receber_avaliacao('Deborah', 6)
-restaurante_EUA.receber_avaliacao('Gui', 9)
+restaurante_EUA.receber_avaliacao('Gui', 2)
+
+
 
 restaurante_EUA.alternar_estado()
 
